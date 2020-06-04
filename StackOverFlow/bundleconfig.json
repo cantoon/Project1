@@ -1,0 +1,24 @@
+[
+  //{
+  //  "inputFiles": [
+  //    "Scripts/jquery-3.5.1.js",
+  //    "Scripts/umd/popper.js",
+  //    "Scripts/bootstrap.js"
+  //  ],
+  //  "minify": { "enabled": true },
+  //  "outputFileName": "Scripts/bootstrap.js"
+  //},
+
+  {
+    "outputFileName": "Styles/site.css",
+    "inputFiles": [
+      "Content/style.css"
+    ]
+  },
+  {
+    "outputFileName": "Styles/boostrap.css",
+    "inputFiles": [
+      "Content/bootstrap.css"
+    ]
+  }
+]

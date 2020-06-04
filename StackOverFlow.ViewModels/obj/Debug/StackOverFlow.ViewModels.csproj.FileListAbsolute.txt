@@ -1,0 +1,12 @@
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\bin\Debug\StackOverFlow.ViewModels.dll
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\bin\Debug\StackOverFlow.ViewModels.pdb
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\obj\Debug\StackOverFlow.ViewModels.csprojAssemblyReference.cache
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\obj\Debug\StackOverFlow.ViewModels.csproj.CoreCompileInputs.cache
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\obj\Debug\StackOverFlow.ViewModels.dll
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\obj\Debug\StackOverFlow.ViewModels.pdb
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\bin\Debug\StackOverFlow.ViewModels.dll.config
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\bin\Debug\EntityFramework.dll
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\bin\Debug\EntityFramework.xml
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\NhatTruong\StackOverFlow\StackOverFlow.ViewModels\obj\Debug\StackOverFlow.ViewModels.csproj.CopyComplete

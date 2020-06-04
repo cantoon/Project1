@@ -1,0 +1,12 @@
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\bin\Debug\StackOverFlow.DomainModels.dll.config
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\bin\Debug\StackOverFlow.DomainModels.dll
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\bin\Debug\StackOverFlow.DomainModels.pdb
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\bin\Debug\EntityFramework.dll
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\bin\Debug\EntityFramework.xml
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\obj\Debug\StackOverFlow.DomainModels.csprojAssemblyReference.cache
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\obj\Debug\StackOverFlow.DomainModels.csproj.CoreCompileInputs.cache
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\obj\Debug\StackOverFlow.DomainModels.csproj.CopyComplete
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\obj\Debug\StackOverFlow.DomainModels.dll
+C:\NhatTruong\StackOverFlow\StackOverFlow.DomainModels\obj\Debug\StackOverFlow.DomainModels.pdb

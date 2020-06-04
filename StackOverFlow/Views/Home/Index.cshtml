@@ -1,0 +1,32 @@
+﻿@model List<StackOverFlow.ViewModels.QuestionViewModel>
+@{
+    ViewBag.Title = "Home";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="jumbotron">
+            <h1>Learn, Shared, Pratice</h1>
+            <h3>Với mục đích tạo sân chơi cho anh em IT chúng ta, ở đây chúng tôi chia sẻ kiến thức và kinh nghiệm</h3>
+            <p class="lead">Tham gia để xây dựng sân chơi cho chúng ta </p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <table class="table">
+            @foreach (var item in Model)
+            {
+                Html.RenderPartial("Question", item);
+            }
+        </table>
+        @if (Session["CurrentUserName"] != null)
+        {
+            <a href="/question/create" class="btn btn-primary">Add Question</a>
+        }
+    </div>
+</div>
+<script>
+    $("a[href='/home/index']").attr("id", "active");
+</script>
