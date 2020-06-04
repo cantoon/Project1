@@ -49,7 +49,51 @@ namespace StackOverFlow.Controllers
                 QuestionViewModel questionView = this.questionService.GetQuestionByQuestionID(newAnswer.QuestionID, newAnswer.UserID);
                 return View("View", questionView);
             }
-            
+        }
+
+        [HttpPost]
+        public ActionResult EditAnswer(EditAnswerViewModel avm)
+        {
+            if (ModelState.IsValid)
+            {
+                avm.UserID = Convert.ToInt32(Session["CurrentUserID"]);
+                this.answersService.UpdateAnswer(avm);
+                return RedirectToAction("View", new { questionId = avm.QuestionID });
+            }
+            else
+            {
+                ModelState.AddModelError("x", "Invalid data");
+                return RedirectToAction("View", new { questionId = avm.QuestionID });
+            }
+        }
+
+        public ActionResult Create()
+        {
+            List<CategoryViewModel> categories = this.categoriesService.GetCategories();
+            ViewBag.categories = categories;
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [UserAuthorizationFilter]
+        public ActionResult Create(NewQuestionViewModel qvm)
+        {
+            if (ModelState.IsValid)
+            {
+                qvm.AnswersCount = 0;
+                qvm.ViewsCount = 0;
+                qvm.VotesCount = 0;
+                qvm.QuestionDateAndTime = DateTime.Now;
+                qvm.UserID = Convert.ToInt32(Session["CurrentUserID"]);
+                this.questionService.InsertQuestion(qvm);
+                return RedirectToAction("Questions", "Home");
+            }
+            else
+            {
+                ModelState.AddModelError("x", "Invalid data");
+                return View();
+            }
         }
     }
 }
