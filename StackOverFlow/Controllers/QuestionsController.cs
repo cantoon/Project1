@@ -1,4 +1,5 @@
-﻿using StackOverFlow.ServiceLayer;
+﻿using StackOverFlow.CustomFilters;
+using StackOverFlow.ServiceLayer;
 using StackOverFlow.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,7 @@ namespace StackOverFlow.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [UserAuthorizationFilter]
         public ActionResult AddAnswer(NewAnswerViewModel newAnswer)
         {
             newAnswer.UserID = Convert.ToInt32(Session["CurrentUserID"]);

@@ -1,4 +1,5 @@
-﻿using StackOverFlow.ServiceLayer;
+﻿using StackOverFlow.CustomFilters;
+using StackOverFlow.ServiceLayer;
 using StackOverFlow.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -93,7 +94,7 @@ namespace StackOverFlow.Controllers
             return RedirectToAction("Index","Home");
         }
         
-
+        [UserAuthorizationFilter]
         public ActionResult ChangeProfile()
         {
             int UserID = Convert.ToInt32(Session["CurrentUserID"]);
